@@ -1,0 +1,198 @@
+{
+  "Projects": [
+    {
+      "BuildConfiguration": "Debug",
+      "ClientConfig": {
+        "BuildConfig": {
+          "Disabled": false,
+          "Fields": []
+        },
+        "Packaging": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": -1120,
+              "Value": "ic_launcher",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1100,
+              "Value": "The Apps Pajamas Easy",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1105,
+              "Value": "com.theappspajamas.easy",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1110,
+              "Value": "1",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1125,
+              "Value": "ic_splash",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1115,
+              "Value": "1",
+              "Disabled": false
+            }
+          ]
+        },
+        "AppIcon": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": -135,
+              "Value": "10",
+              "Disabled": false
+            },
+            {
+              "FieldId": -130,
+              "Value": "9",
+              "Disabled": false
+            },
+            {
+              "FieldId": -125,
+              "Value": "8",
+              "Disabled": false
+            },
+            {
+              "FieldId": -120,
+              "Value": "7",
+              "Disabled": false
+            },
+            {
+              "FieldId": -115,
+              "Value": "6",
+              "Disabled": false
+            },
+            {
+              "FieldId": -110,
+              "Value": "5",
+              "Disabled": false
+            }
+          ]
+        },
+        "Splash": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": -3430,
+              "Value": "47",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3425,
+              "Value": "46",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3420,
+              "Value": "45",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3410,
+              "Value": "43",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3405,
+              "Value": "42",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3400,
+              "Value": "41",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3230,
+              "Value": "67",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3225,
+              "Value": "66",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3220,
+              "Value": "65",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3215,
+              "Value": "64",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3210,
+              "Value": "63",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3205,
+              "Value": "62",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3200,
+              "Value": "61",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3300,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3305,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3415,
+              "Value": "44",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3510,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3505,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3515,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3310,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3315,
+              "Value": "",
+              "Disabled": true
+            },
+            {
+              "FieldId": -3500,
+              "Value": "",
+              "Disabled": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

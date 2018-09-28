@@ -1,0 +1,413 @@
+{
+  "Projects": [
+    {
+      "BuildConfiguration": "Debug",
+      "ClientConfig": {
+        "BuildConfig": {
+          "Disabled": false,
+          "Fields": []
+        },
+        "Packaging": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": -1255,
+              "Value": "0",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1250,
+              "Value": "Launch",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1245,
+              "Value": "LaunchScreenLandscape",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1240,
+              "Value": "LaunchScreenPortrait",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1235,
+              "Value": "LaunchScreen",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1230,
+              "Value": "0",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1225,
+              "Value": "AppIcon",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1220,
+              "Value": "Tap",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1215,
+              "Value": "1",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1210,
+              "Value": "1",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1205,
+              "Value": "com.theappspajamas.easy",
+              "Disabled": false
+            },
+            {
+              "FieldId": -1200,
+              "Value": "The Apps Pajamas Easy",
+              "Disabled": false
+            }
+          ]
+        },
+        "AppIcon": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": -275,
+              "Value": "26",
+              "Disabled": false
+            },
+            {
+              "FieldId": -265,
+              "Value": "24",
+              "Disabled": false
+            },
+            {
+              "FieldId": -335,
+              "Value": "36",
+              "Disabled": false
+            },
+            {
+              "FieldId": -330,
+              "Value": "35",
+              "Disabled": false
+            },
+            {
+              "FieldId": -325,
+              "Value": "34",
+              "Disabled": false
+            },
+            {
+              "FieldId": -320,
+              "Value": "33",
+              "Disabled": false
+            },
+            {
+              "FieldId": -315,
+              "Value": "32",
+              "Disabled": false
+            },
+            {
+              "FieldId": -310,
+              "Value": "31",
+              "Disabled": false
+            },
+            {
+              "FieldId": -305,
+              "Value": "30",
+              "Disabled": false
+            },
+            {
+              "FieldId": -300,
+              "Value": "29",
+              "Disabled": false
+            },
+            {
+              "FieldId": -285,
+              "Value": "28",
+              "Disabled": false
+            },
+            {
+              "FieldId": -270,
+              "Value": "25",
+              "Disabled": false
+            },
+            {
+              "FieldId": -260,
+              "Value": "23",
+              "Disabled": false
+            },
+            {
+              "FieldId": -255,
+              "Value": "22",
+              "Disabled": false
+            },
+            {
+              "FieldId": -280,
+              "Value": "27",
+              "Disabled": false
+            },
+            {
+              "FieldId": -245,
+              "Value": "20",
+              "Disabled": false
+            },
+            {
+              "FieldId": -250,
+              "Value": "21",
+              "Disabled": false
+            },
+            {
+              "FieldId": -205,
+              "Value": "12",
+              "Disabled": false
+            },
+            {
+              "FieldId": -240,
+              "Value": "19",
+              "Disabled": false
+            },
+            {
+              "FieldId": -235,
+              "Value": "18",
+              "Disabled": false
+            },
+            {
+              "FieldId": -230,
+              "Value": "17",
+              "Disabled": false
+            },
+            {
+              "FieldId": -225,
+              "Value": "16",
+              "Disabled": false
+            },
+            {
+              "FieldId": -220,
+              "Value": "15",
+              "Disabled": false
+            },
+            {
+              "FieldId": -215,
+              "Value": "14",
+              "Disabled": false
+            },
+            {
+              "FieldId": -210,
+              "Value": "13",
+              "Disabled": false
+            }
+          ]
+        },
+        "Splash": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": -3635,
+              "Value": "77",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3715,
+              "Value": "76",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3630,
+              "Value": "75",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3710,
+              "Value": "74",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3625,
+              "Value": "73",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3705,
+              "Value": "72",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3615,
+              "Value": "71",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3700,
+              "Value": "70",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3610,
+              "Value": "69",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3720,
+              "Value": "78",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3835,
+              "Value": "59",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3640,
+              "Value": "79",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3725,
+              "Value": "80",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3645,
+              "Value": "81",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3830,
+              "Value": "58",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3825,
+              "Value": "57",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3820,
+              "Value": "56",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3815,
+              "Value": "55",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3810,
+              "Value": "54",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3805,
+              "Value": "53",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3800,
+              "Value": "52",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3950,
+              "Value": "97",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3940,
+              "Value": "96",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3930,
+              "Value": "95",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3925,
+              "Value": "94",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3920,
+              "Value": "93",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3915,
+              "Value": "92",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3905,
+              "Value": "50",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3900,
+              "Value": "49",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3765,
+              "Value": "91",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3760,
+              "Value": "90",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3755,
+              "Value": "89",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3750,
+              "Value": "88",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3745,
+              "Value": "87",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3740,
+              "Value": "86",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3655,
+              "Value": "85",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3735,
+              "Value": "84",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3650,
+              "Value": "83",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3730,
+              "Value": "82",
+              "Disabled": false
+            },
+            {
+              "FieldId": -3910,
+              "Value": "51",
+              "Disabled": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "idiom": "universal",
+      "filename": "StoryboardLaunchImage-Portrait~universal_69.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "filename": "StoryboardLaunchImage-Portrait@2x~universal_71.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "filename": "StoryboardLaunchImage-Portrait@3x~universal_73.png",
+      "scale": "3x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Portrait~iphone_75.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Portrait@2x~iphone_77.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Portrait@3x~iphone_81.png",
+      "scale": "3x"
+    },
+    {
+      "idiom": "ipad",
+      "filename": "StoryboardLaunchImage-Portrait@1x~ipad_83.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "ipad",
+      "filename": "StoryboardLaunchImage-Portrait@2x~ipad_85.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-R4-Portrait@2x~iphone_79.png",
+      "scale": "2x",
+      "subtype": "retina4"
+    }
+  ],
+  "info": {
+    "version": 1,
+    "author": "xcode"
+  }
+}
