@@ -1,0 +1,15 @@
+{
+  "TapAppId": 1,
+  "BuildConfigurations": [
+    {
+      "ProjectName": "TheAppsPajamas.Easy.Droid",
+      "BuildConfiguration": "Debug",
+      "Disabled": false
+    },
+    {
+      "ProjectName": "TheAppsPajamas.Easy.iOS",
+      "BuildConfiguration": "Debug",
+      "Disabled": false
+    }
+  ]
+}
