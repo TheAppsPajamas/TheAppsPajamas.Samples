@@ -8,6 +8,6 @@ For all documentation see https://www.theappspajamas.com/docs/getting-started
 
 To use the sample login for The Apps Pajamas Dashboard login at https://app.theappspajamas.com with the user name 'sample.user' and password 'sample.user'
 
-# Samples
+# Included Samples
 
 TheAppsPajamas.Easy is the initial sample project to get you up and running quickly
