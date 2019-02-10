@@ -1,5 +1,5 @@
 {
-  "TapAppId": 1,
+  "TapAppId": "4x6sshgyv4cqe3zq84fd6g0pdk",
   "BuildConfigurations": [
     {
       "ProjectName": "TheAppsPajamas.Easy.Droid",
@@ -9,6 +9,16 @@
     {
       "ProjectName": "TheAppsPajamas.Easy.iOS",
       "BuildConfiguration": "Debug",
+      "Disabled": false
+    },
+    {
+      "ProjectName": "TheAppsPajamas.Easy.Droid",
+      "BuildConfiguration": "Release",
+      "Disabled": false
+    },
+    {
+      "ProjectName": "TheAppsPajamas.Easy.iOS",
+      "BuildConfiguration": "Release",
       "Disabled": false
     }
   ]

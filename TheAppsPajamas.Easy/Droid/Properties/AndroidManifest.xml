@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1" package="com.theappspajamas.easy" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="15" />
-  <uses-permission android:name="android.permission.INTERNET" />
-  <application android:theme="@style/MasterDetailTheme" android:allowBackup="true" android:label="The Apps Pajamas Easy" />
+	<uses-sdk android:minSdkVersion="15" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:theme="@style/MasterDetailTheme" android:allowBackup="true" android:label="The Apps Pajamas Easy" />
 </manifest>

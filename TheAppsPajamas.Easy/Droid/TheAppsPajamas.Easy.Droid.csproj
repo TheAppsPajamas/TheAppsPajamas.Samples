@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.props" Condition="Exists('..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.props')" />
+  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -193,7 +192,6 @@
   <Import Project="..\packages\Xamarin.Android.Support.Design.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Design.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Design.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.v4.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v4.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v4.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v4.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.CardView.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.CardView.targets')" />
-  <Import Project="..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.targets" Condition="Exists('..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.targets')" />
   <ItemGroup>
     <AndroidResource Include="Resources/drawable-hdpi/ic_splash.png" />
     <AndroidResource Include="Resources/drawable-land-hdpi/ic_splash.png" />
@@ -215,25 +213,50 @@
     <AndroidResource Include="Resources/mipmap-xhdpi/ic_launcher.png" />
     <AndroidResource Include="Resources/mipmap-xxhdpi/ic_launcher.png" />
     <AndroidResource Include="Resources/mipmap-xxxhdpi/ic_launcher.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-hdpi/ic_splash_94.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-hdpi/ic_splash_59.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-ldpi/ic_splash_57.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-mdpi/ic_splash_56.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-xhdpi/ic_splash_55.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-xxhdpi/ic_splash_54.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-xxxhdpi/ic_splash_53.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land/ic_splash_58.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-ldpi/ic_splash_96.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-mdpi/ic_splash_95.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-xhdpi/ic_splash_93.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-xxhdpi/ic_splash_92.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-xxxhdpi/ic_splash_91.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/drawable/ic_splash_97.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-hdpi/ic_launcher_7.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-ldpi/ic_launcher_9.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-mdpi/ic_launcher_8.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-xhdpi/ic_launcher_6.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-xxhdpi/ic_launcher_5.png" />
-    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-xxxhdpi/ic_launcher_4.png" />
+  </ItemGroup>
+  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets')" />
+  <ItemGroup>
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-hdpi/ic_splash_44rb02n0hjp2vxp5gdbw0pamwp.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-hdpi/ic_splash_41wsfyrez9n74zsqbmvp8tjgxs.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-ldpi/ic_splash_48b078h3xqhd9zn7s1ggx3f446.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-mdpi/ic_splash_4g2pjrfh6f0e42y2zmpver1rdf.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-xhdpi/ic_splash_48zafmnpb5rhqynjc5mbrnhzcp.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-xxhdpi/ic_splash_4nt0c08vscx887e5cmqs36v6x0.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-xxxhdpi/ic_splash_4k4hvexf7qwx90g2vxgkjfy24y.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land/ic_splash_4y0kkwka744dcx298ste470zwb.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-ldpi/ic_splash_4f155mkqzkbnn7xpkf0kfxc1dc.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-mdpi/ic_splash_43chz8b7tvw5f4qqcnhwdsfbm9.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-xhdpi/ic_splash_4zw7dt3t51vq0z6vxjn6yar24x.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-xxhdpi/ic_splash_4hbftkczd5y0zzbvd3mr72rv50.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable-xxxhdpi/ic_splash_4qhrc3qzda7xrxch7weaffq8we.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/drawable/ic_splash_475w43tx1g2zr423qskhrw5244.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-hdpi/ic_launcher_4vmvgs5wdk5xw38qf03f22erx9.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-ldpi/ic_launcher_4aavgwc5nxwhw3yhe8fxerhkm0.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-mdpi/ic_launcher_400abfqng1x6x3spp3ch7ft8dk.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-xhdpi/ic_launcher_42z22ewvptcsz590phbsdrfxcg.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-xxhdpi/ic_launcher_4bv51zd36gt2x7gak8841hnmdv.png" />
+    <TapAsset Include="TapAssets/Debug/TapAssets/mipmap-xxxhdpi/ic_launcher_4ecvg7ps5087e39m5681tez8ng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-hdpi/ic_splash_44rb02n0hjp2vxp5gdbw0pamwp.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land-hdpi/ic_splash_41wsfyrez9n74zsqbmvp8tjgxs.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land-ldpi/ic_splash_48b078h3xqhd9zn7s1ggx3f446.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land-mdpi/ic_splash_4g2pjrfh6f0e42y2zmpver1rdf.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land-xhdpi/ic_splash_48zafmnpb5rhqynjc5mbrnhzcp.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land-xxhdpi/ic_splash_4nt0c08vscx887e5cmqs36v6x0.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land-xxxhdpi/ic_splash_4k4hvexf7qwx90g2vxgkjfy24y.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-land/ic_splash_4y0kkwka744dcx298ste470zwb.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-ldpi/ic_splash_4f155mkqzkbnn7xpkf0kfxc1dc.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-mdpi/ic_splash_43chz8b7tvw5f4qqcnhwdsfbm9.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-xhdpi/ic_splash_4zw7dt3t51vq0z6vxjn6yar24x.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-xxhdpi/ic_splash_4hbftkczd5y0zzbvd3mr72rv50.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable-xxxhdpi/ic_splash_4qhrc3qzda7xrxch7weaffq8we.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/drawable/ic_splash_475w43tx1g2zr423qskhrw5244.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/mipmap-hdpi/ic_launcher_4vmvgs5wdk5xw38qf03f22erx9.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/mipmap-ldpi/ic_launcher_4aavgwc5nxwhw3yhe8fxerhkm0.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/mipmap-mdpi/ic_launcher_400abfqng1x6x3spp3ch7ft8dk.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/mipmap-xhdpi/ic_launcher_42z22ewvptcsz590phbsdrfxcg.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/mipmap-xxhdpi/ic_launcher_4bv51zd36gt2x7gak8841hnmdv.png" />
+    <TapAsset Include="TapAssets/Release/TapAssets/mipmap-xxxhdpi/ic_launcher_4ecvg7ps5087e39m5681tez8ng.png" />
   </ItemGroup>
 </Project>

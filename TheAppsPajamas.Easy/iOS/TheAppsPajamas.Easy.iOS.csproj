@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.props" Condition="Exists('..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.props')" />
+  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -151,7 +151,6 @@
   </ItemGroup>
   <Import Project="..\TheAppsPajamas.Easy\TheAppsPajamas.Easy.projitems" Label="Shared" Condition="Exists('..\TheAppsPajamas.Easy\TheAppsPajamas.Easy.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.targets" Condition="Exists('..\packages\TheAppsPajamas.Client.1.0.2\build\TheAppsPajamas.Client.targets')" />
   <ItemGroup>
     <ImageAsset Include="Tap.xcassets/AppIcon.appiconset/AppIcon24x24@2x.png" />
     <ImageAsset Include="Tap.xcassets/AppIcon.appiconset/AppIcon27.5x27.5@2x.png" />
@@ -225,73 +224,145 @@
     <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Contents.json" />
     <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/Contents.json" />
     <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/Contents.json" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape~universal_49.png" />
     <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/Contents.json" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~universal_69.png" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
   </ItemGroup>
+  <ItemGroup />
+  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets')" />
   <ItemGroup>
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon24x24@2x_33.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon27.5x27.5@2x_34.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon29x29@2x_35.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon29x29@3x_36.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon40x40@2x_29.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon44x44@2x_30.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon86x86@2x_31.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon98x98@2x_32.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-20@1x_15.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-20@2x_16.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-20@3x_17.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-60@2x_18.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-60@3x_19.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-76@2x_21.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-76_20.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-83.5@2x_22.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Marketing_14.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small-40@2x_24.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small-40@3x_25.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small-40_23.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small@2x_27.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small@3x_28.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small_26.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Landscape~ipad_1024x768_56.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Landscape~ipad_2048x1536_55.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait@2x~ipad_88.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait@2x~iphone_74.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait~ipad_86.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-800-Landscape-736h@3x_52.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape@2x~ipad_2048x1496_58.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_1024x748_57.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_1024x768_53.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_2048x1536_54.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-568h@2x_76.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-568h@3x_78.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-667h@2x_80.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-736h@3x_82.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait@2x~ipad_87.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait~ipad@2x_2048x2732_91.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait~ipad_84.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage@2x~iphone_72.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImageNoStatusBar@2x~ipad_90.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImageNoStatusBar~ipad_89.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage~iphone_70.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage~tv_59.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@1x~ipad_96.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~ipad_97.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~iphone_93.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~universal_50.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x_94.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x~iphone_95.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x~universal_51.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape~iphone_92.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@1x~ipad_83.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~ipad_85.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~iphone_77.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~universal_71.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@3x~iphone_81.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@3x~universal_73.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~iphone_75.png" />
-    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-R4-Portrait@2x~iphone_79.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon24x24@2x_44ah0jarhga9a3cw4mpv3x8jnq.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon27.5x27.5@2x_4schxhvpvbhrezphdnw86qj7w2.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon29x29@2x_403jyw5fjr7785ws0axwgsqvxv.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon29x29@3x_4wgev7qjxkarjs2xmcn3jpd6de.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon40x40@2x_49hmvhmk93crq7rykc92dha1nz.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon44x44@2x_4q0kypqrq02cw65qe6enx2a7mz.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon86x86@2x_4r1xqan8a3jcwwmg2s77wa9sm3.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon98x98@2x_4t7n86ypx0dxzv68t5tz1acs5b.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Contents.json" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-20@1x_4z0jhgagfgy7z1r5ds0vb228x4.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-20@2x_44vv77x8gd5sh1gnepqpk4avdd.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-20@3x_4bhngr82ky4rt4bshbvwmftn5g.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-60@2x_4zhqx8q3axp0wtwzaxmc8hxg5w.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-60@3x_4c2vfsnfx7h5ezec9kb0wnpcd1.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-76@2x_4jcwjcwb1dve66j2geyf9c9s51.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-76_480fdy22xsjxdwv6nn4b5zzyme.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-83.5@2x_4kznfefvdb6g7vf25p80yxqwmb.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Marketing_4867c6ed2e4wbrkdpb2r40knmf.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Small-40@2x_4qjekrmkebh84x27kkxw2y49d8.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Small-40@3x_4qcacmqcds0mbt6awp7bnhjj5b.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Small-40_4990vv0p3rnqsttjyn9sbyw45g.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Small@2x_4qpqat5dhapk47np044nc5b8ws.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Small@3x_4qmz75tnbfqe8yfgeaczqj185f.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/Icon-Small_4a12kw7z1pq060dxmh4ffdd3mh.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Contents.json" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/Contents.json" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-700-Landscape~ipad_1024x768_42ezpbs13f85j7418vsa7dvcnt.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-700-Landscape~ipad_2048x1536_4sm1fntm3cwx7t17z6j51e80wx.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait@2x~ipad_46pb9tc681b3d24d4ytza4dpwa.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait@2x~iphone_41e2cjgt9n4gd0qcd9dq46y6mx.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait~ipad_43wqa9z9632k91hvv2xm7wfkw4.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-800-Landscape-736h@3x_4mg7ggfgw50h73n26bhbtg9749.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape@2x~ipad_2048x1496_42vq3mcntnq1qtv2s07cqpkbnq.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_1024x748_4mmtagg231g8px2fwzzxq3924t.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_1024x768_4x2p2xzcpx0vd329p9t4s8h9ma.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_2048x1536_4ztt8znr795620ytch04tc5gwb.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-568h@2x_48p5sxzzp0rj64kghdxkwnth47.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-568h@3x_4rqjw8ht4jpgp3wtz1n5y08ycv.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-667h@2x_4saz2hfqhtrszrx6a8mt6pr3xv.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-736h@3x_440q54rbjhwry6skw56zkpx3xv.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait@2x~ipad_4ws8hrkjqqzhbxenme7wc6ky5v.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait~ipad@2x_2048x2732_46z7zwdgrcnhesrs39qsq6k94k.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait~ipad_46pkta7t25g34yawp4sw6jh8c1.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage@2x~iphone_4qn268n1e9wy0s2th4769ay64e.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImageNoStatusBar@2x~ipad_4rqhvnkjb46z7164zd0gksv7n8.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImageNoStatusBar~ipad_48xr1zyg13nj2ytpv0mqq7x5m5.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage~iphone_4myz9rvzmeg73zb14hf7b1sxx7.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/Launch.launchimage/LaunchImage~tv_4mh96hysj4pn9vabd47pjth7da.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/Contents.json" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@1x~ipad_43d425t5cnjpr2wa6ehcwantnb.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~ipad_4m3pcmzt3fk2gzrgmh0jqwyw5s.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~iphone_4dc0stm1mzcqg73vkd4axhnp5a.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~universal_4mcpcdvp4rttbz6vgtsn2srvdh.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x_4vy4fzqk684fp1ed5dt1pz8cwk.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x~iphone_4e023cq7waw797p8zrawsy3r4c.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x~universal_4cna53qerrt7xyjge04wafw356.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape~iphone_42e46jfx1pq082s48fzm0amdn0.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape~universal_4ek1zsnwnrzn47csexg4q1hk53.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/Contents.json" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@1x~ipad_45yt46bmsm728se7pg6ev9hkc8.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~ipad_43dejctd0jawjvrs1cfjpjgfcj.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~iphone_40cg5809pc9b2spmxs4p0e0qma.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~universal_4rhkvy5x3hfntyv89436hrgdde.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@3x~iphone_48da14fencvcr1312gxg5c4nwg.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@3x~universal_4zk5j6tpb2pr11yyz793c39yn3.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~iphone_45npvj1rfa00827yenzyg7xx4w.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~universal_4yatf04kayf2atvby0v9ce1sn8.png" />
+    <ImageAsset Include="TapAssets/Release/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-R4-Portrait@2x~iphone_49wv7m3fjv1tjybkr2pab18a5w.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon24x24@2x_44ah0jarhga9a3cw4mpv3x8jnq.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon27.5x27.5@2x_4schxhvpvbhrezphdnw86qj7w2.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon29x29@2x_403jyw5fjr7785ws0axwgsqvxv.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon29x29@3x_4wgev7qjxkarjs2xmcn3jpd6de.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon40x40@2x_49hmvhmk93crq7rykc92dha1nz.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon44x44@2x_4q0kypqrq02cw65qe6enx2a7mz.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon86x86@2x_4r1xqan8a3jcwwmg2s77wa9sm3.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/AppIcon98x98@2x_4t7n86ypx0dxzv68t5tz1acs5b.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-20@1x_4z0jhgagfgy7z1r5ds0vb228x4.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-20@2x_44vv77x8gd5sh1gnepqpk4avdd.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-20@3x_4bhngr82ky4rt4bshbvwmftn5g.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-60@2x_4zhqx8q3axp0wtwzaxmc8hxg5w.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-60@3x_4c2vfsnfx7h5ezec9kb0wnpcd1.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-76@2x_4jcwjcwb1dve66j2geyf9c9s51.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-76_480fdy22xsjxdwv6nn4b5zzyme.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-83.5@2x_4kznfefvdb6g7vf25p80yxqwmb.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Marketing_4867c6ed2e4wbrkdpb2r40knmf.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small-40@2x_4qjekrmkebh84x27kkxw2y49d8.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small-40@3x_4qcacmqcds0mbt6awp7bnhjj5b.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small-40_4990vv0p3rnqsttjyn9sbyw45g.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small@2x_4qpqat5dhapk47np044nc5b8ws.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small@3x_4qmz75tnbfqe8yfgeaczqj185f.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/AppIcon.appiconset/Icon-Small_4a12kw7z1pq060dxmh4ffdd3mh.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Landscape~ipad_1024x768_42ezpbs13f85j7418vsa7dvcnt.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Landscape~ipad_2048x1536_4sm1fntm3cwx7t17z6j51e80wx.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait@2x~ipad_46pb9tc681b3d24d4ytza4dpwa.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait@2x~iphone_41e2cjgt9n4gd0qcd9dq46y6mx.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-700-Portrait~ipad_43wqa9z9632k91hvv2xm7wfkw4.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-800-Landscape-736h@3x_4mg7ggfgw50h73n26bhbtg9749.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape@2x~ipad_2048x1496_42vq3mcntnq1qtv2s07cqpkbnq.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_1024x748_4mmtagg231g8px2fwzzxq3924t.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_1024x768_4x2p2xzcpx0vd329p9t4s8h9ma.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Landscape~ipad_2048x1536_4ztt8znr795620ytch04tc5gwb.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-568h@2x_48p5sxzzp0rj64kghdxkwnth47.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-568h@3x_4rqjw8ht4jpgp3wtz1n5y08ycv.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-667h@2x_4saz2hfqhtrszrx6a8mt6pr3xv.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait-736h@3x_440q54rbjhwry6skw56zkpx3xv.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait@2x~ipad_4ws8hrkjqqzhbxenme7wc6ky5v.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait~ipad@2x_2048x2732_46z7zwdgrcnhesrs39qsq6k94k.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage-Portrait~ipad_46pkta7t25g34yawp4sw6jh8c1.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage@2x~iphone_4qn268n1e9wy0s2th4769ay64e.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImageNoStatusBar@2x~ipad_4rqhvnkjb46z7164zd0gksv7n8.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImageNoStatusBar~ipad_48xr1zyg13nj2ytpv0mqq7x5m5.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage~iphone_4myz9rvzmeg73zb14hf7b1sxx7.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/Launch.launchimage/LaunchImage~tv_4mh96hysj4pn9vabd47pjth7da.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@1x~ipad_43d425t5cnjpr2wa6ehcwantnb.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~ipad_4m3pcmzt3fk2gzrgmh0jqwyw5s.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~iphone_4dc0stm1mzcqg73vkd4axhnp5a.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@2x~universal_4mcpcdvp4rttbz6vgtsn2srvdh.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x_4vy4fzqk684fp1ed5dt1pz8cwk.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x~iphone_4e023cq7waw797p8zrawsy3r4c.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape@3x~universal_4cna53qerrt7xyjge04wafw356.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape~iphone_42e46jfx1pq082s48fzm0amdn0.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenLandscape.imageset/StoryboardLaunchImage-Landscape~universal_4ek1zsnwnrzn47csexg4q1hk53.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@1x~ipad_45yt46bmsm728se7pg6ev9hkc8.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~ipad_43dejctd0jawjvrs1cfjpjgfcj.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~iphone_40cg5809pc9b2spmxs4p0e0qma.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@2x~universal_4rhkvy5x3hfntyv89436hrgdde.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@3x~iphone_48da14fencvcr1312gxg5c4nwg.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait@3x~universal_4zk5j6tpb2pr11yyz793c39yn3.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~iphone_45npvj1rfa00827yenzyg7xx4w.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~universal_4yatf04kayf2atvby0v9ce1sn8.png" />
+    <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-R4-Portrait@2x~iphone_49wv7m3fjv1tjybkr2pab18a5w.png" />
   </ItemGroup>
 </Project>
