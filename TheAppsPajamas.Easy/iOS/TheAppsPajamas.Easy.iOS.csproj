@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props')" />
+  <Import Project="..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.props" Condition="Exists('..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -229,7 +229,6 @@
     <ITunesArtwork Include="iTunesArtwork@2x" />
   </ItemGroup>
   <ItemGroup />
-  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets')" />
   <ItemGroup>
     <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon24x24@2x_44ah0jarhga9a3cw4mpv3x8jnq.png" />
     <ImageAsset Include="TapAssets/Release/Tap.xcassets/AppIcon.appiconset/AppIcon27.5x27.5@2x_4schxhvpvbhrezphdnw86qj7w2.png" />
@@ -365,4 +364,5 @@
     <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-Portrait~universal_4yatf04kayf2atvby0v9ce1sn8.png" />
     <ImageAsset Include="TapAssets/Debug/Tap.xcassets/LaunchScreenPortrait.imageset/StoryboardLaunchImage-R4-Portrait@2x~iphone_49wv7m3fjv1tjybkr2pab18a5w.png" />
   </ItemGroup>
+  <Import Project="..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.targets" Condition="Exists('..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.targets')" />
 </Project>
