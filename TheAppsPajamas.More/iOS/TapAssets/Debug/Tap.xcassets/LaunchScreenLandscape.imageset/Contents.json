@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "idiom": "universal",
+      "filename": "StoryboardLaunchImage-Landscape~universal_40dh9t5r0j2ymz4k61c7fj3rxj.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "filename": "StoryboardLaunchImage-Landscape@2x~universal_44jddcaa6secs51yeb7qchw7ma.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "filename": "StoryboardLaunchImage-Landscape@3x~universal_4fa196sfp86gr118sk1fse3ycn.png",
+      "scale": "3x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Landscape~iphone_4hqy299btfpx9668fmpgqnrxmr.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Landscape@2x~iphone_4cbpjqpmrps2v3sm88ny99ch47.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Landscape@3x~iphone_4x3nq074bped3xjenzjb0m784f.png",
+      "scale": "3x"
+    },
+    {
+      "idiom": "ipad",
+      "filename": "StoryboardLaunchImage-Landscape@1x~ipad_4qdgqpxcr2g8t26b1ejtz0qdxy.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "ipad",
+      "filename": "StoryboardLaunchImage-Landscape@2x~ipad_4jnkd08gkvxmaz7pvz74vv13x0.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "iphone",
+      "filename": "StoryboardLaunchImage-Landscape@3x_45rgr6e7088cnre7d09sfy8bdv.png",
+      "scale": "2x",
+      "subtype": "retina4"
+    }
+  ],
+  "info": {
+    "version": 1,
+    "author": "xcode"
+  }
+}
