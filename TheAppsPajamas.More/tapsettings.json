@@ -1,0 +1,15 @@
+{
+  "TapAppId": "4txvz4tykg5bys1q55twyec9wp",
+  "BuildConfigurations": [
+    {
+      "ProjectName": "TheAppsPajamas.More.iOS",
+      "BuildConfiguration": "Debug",
+      "Disabled": false
+    },
+    {
+      "ProjectName": "TheAppsPajamas.More.Droid",
+      "BuildConfiguration": "Debug",
+      "Disabled": false
+    }
+  ]
+}

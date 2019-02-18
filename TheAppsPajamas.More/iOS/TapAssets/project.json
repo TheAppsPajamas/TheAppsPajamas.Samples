@@ -1,0 +1,420 @@
+{
+  "Projects": [
+    {
+      "BuildConfiguration": "Debug",
+      "ClientConfig": {
+        "BuildConfig": {
+          "Disabled": false,
+          "Fields": []
+        },
+        "Packaging": {
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": "1240",
+              "Value": "LaunchScreenPortrait",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1245",
+              "Value": "LaunchScreenLandscape",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1215",
+              "Value": "1",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1225",
+              "Value": "AppIcon",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1235",
+              "Value": "LaunchScreen",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1255",
+              "Value": "0",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1230",
+              "Value": "0",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1200",
+              "Value": "The Apps Pajamas More",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1210",
+              "Value": "1",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1220",
+              "Value": "Tap",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1250",
+              "Value": "Launch",
+              "Disabled": false
+            },
+            {
+              "FieldId": "1205",
+              "Value": "com.theappspajamas.more",
+              "Disabled": false
+            }
+          ]
+        },
+        "AppIcon": {
+          "Succeeded": true,
+          "Status": 0,
+          "Messages": [],
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": "280",
+              "Value": "4m9k19y554fggy3jm66f6ykbwk",
+              "Disabled": false
+            },
+            {
+              "FieldId": "305",
+              "Value": "45yqvgcf7vkkkrek66a7f5n6c4",
+              "Disabled": false
+            },
+            {
+              "FieldId": "225",
+              "Value": "4a0rknkp2jqst1dfgqzm9mj8xn",
+              "Disabled": false
+            },
+            {
+              "FieldId": "335",
+              "Value": "4qw9k5veda99vyxxrvjxds71cq",
+              "Disabled": false
+            },
+            {
+              "FieldId": "265",
+              "Value": "4zhzmrf3dj5x73b2wmjfdx2wcp",
+              "Disabled": false
+            },
+            {
+              "FieldId": "315",
+              "Value": "49tcq99z826bnskvy9688gyxdd",
+              "Disabled": false
+            },
+            {
+              "FieldId": "275",
+              "Value": "4y2pkteftg791620xnvd74pb5f",
+              "Disabled": false
+            },
+            {
+              "FieldId": "245",
+              "Value": "4sjxbmd2mazrcxz199b7bq6ady",
+              "Disabled": false
+            },
+            {
+              "FieldId": "285",
+              "Value": "4j1tcmcppqrefwd79bjnr9btcw",
+              "Disabled": false
+            },
+            {
+              "FieldId": "210",
+              "Value": "4cfm673csrwfr501me1asksaxd",
+              "Disabled": false
+            },
+            {
+              "FieldId": "300",
+              "Value": "4sz10d6e02n86zfapx5fvmj5mf",
+              "Disabled": false
+            },
+            {
+              "FieldId": "260",
+              "Value": "4rdmyyejejtcg2ja7rgmkye64j",
+              "Disabled": false
+            },
+            {
+              "FieldId": "270",
+              "Value": "42ekwp405jq6q4hn5pdeevqnd2",
+              "Disabled": false
+            },
+            {
+              "FieldId": "325",
+              "Value": "44k24j3ph819s59bjrv7c8wgm1",
+              "Disabled": false
+            },
+            {
+              "FieldId": "330",
+              "Value": "4qedr2xdbmmrf25h1wyszzxq5e",
+              "Disabled": false
+            },
+            {
+              "FieldId": "235",
+              "Value": "430vqrvfphkay6t7zgxfh4db59",
+              "Disabled": false
+            },
+            {
+              "FieldId": "250",
+              "Value": "4gbwh4qqhxy963xhn1ex5c2hdf",
+              "Disabled": false
+            },
+            {
+              "FieldId": "230",
+              "Value": "4cr264s2svmk6xqr1v5ek9kpw1",
+              "Disabled": false
+            },
+            {
+              "FieldId": "220",
+              "Value": "4z41bj15mw9wmt0yngpjn57751",
+              "Disabled": false
+            },
+            {
+              "FieldId": "320",
+              "Value": "4m7xn6xrpw98gt3pyycr0wjvcx",
+              "Disabled": false
+            },
+            {
+              "FieldId": "205",
+              "Value": "43qvbvgckftb043acxbj43kxnp",
+              "Disabled": false
+            },
+            {
+              "FieldId": "255",
+              "Value": "41kfcmnarc6caxjkeagrrpbame",
+              "Disabled": false
+            },
+            {
+              "FieldId": "310",
+              "Value": "4mmzrave1hj2z2apsedx1qg7cd",
+              "Disabled": false
+            },
+            {
+              "FieldId": "240",
+              "Value": "4wdtg4e5ys7zb5dz4jseqk845g",
+              "Disabled": false
+            },
+            {
+              "FieldId": "215",
+              "Value": "46jz0kzfve569rx7tp2v1cfzwr",
+              "Disabled": false
+            }
+          ]
+        },
+        "Splash": {
+          "Succeeded": true,
+          "Status": 0,
+          "Messages": [],
+          "Disabled": false,
+          "Fields": [
+            {
+              "FieldId": "3705",
+              "Value": "4st38970q6z0wzsqyr31z455dj",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3710",
+              "Value": "4ycb1bxz40ge6wvsgth8vq14wj",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3610",
+              "Value": "4qsr4w9f9d6npxqv8b8e7kwdm7",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3615",
+              "Value": "4w16bew9wsq2fz19xb24grgc49",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3725",
+              "Value": "4hp8swe2f3ja4zbbpp4dcec8dq",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3830",
+              "Value": "414m51enxdh7cskravyrb5a3x4",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3635",
+              "Value": "4wecrekm5ecn9xr3ejrer13e5c",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3625",
+              "Value": "4mqbskwyzbe9m2shty45yymgx0",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3905",
+              "Value": "44jddcaa6secs51yeb7qchw7ma",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3720",
+              "Value": "4pse5nwhdy5a455fx73panm6w5",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3940",
+              "Value": "4qdgqpxcr2g8t26b1ejtz0qdxy",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3810",
+              "Value": "4510358033daprjrxeyxcdw65v",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3750",
+              "Value": "4g7xmrq9kdmqk65x9b2ec3t14a",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3920",
+              "Value": "4cbpjqpmrps2v3sm88ny99ch47",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3740",
+              "Value": "4c1m2bmf12pfhrnt4vsd4tjhww",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3630",
+              "Value": "4x62kt90m3c7x5k082dw6x6vc3",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3900",
+              "Value": "40dh9t5r0j2ymz4k61c7fj3rxj",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3735",
+              "Value": "42y3977ypsqf9v10hcf1r1kr5e",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3730",
+              "Value": "4q7bgz1s046m2vdtyqngjjhjcb",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3800",
+              "Value": "4hq840ysmbcgzx5rwk2wx1h05x",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3825",
+              "Value": "42t85hk97n1ftzhhgn706w34dq",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3820",
+              "Value": "47mjyfzx8q1psvffr7sdchmp5s",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3910",
+              "Value": "4fa196sfp86gr118sk1fse3ycn",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3815",
+              "Value": "441t4hzjx4cm21va46hamqxtc1",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3715",
+              "Value": "4wbf7ar0b9pdcraqq8qxsdjgwe",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3805",
+              "Value": "40pfm9e2q4hnq1p341t58c33nz",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3760",
+              "Value": "4d32rhwgf33ez0zvmr5pk6rjwy",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3655",
+              "Value": "4mkynxm5yx2ra6h0snhn04b75m",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3650",
+              "Value": "4f0qw1bgwfg3q2vbqh8cf79e57",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3950",
+              "Value": "4jnkd08gkvxmaz7pvz74vv13x0",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3925",
+              "Value": "45rgr6e7088cnre7d09sfy8bdv",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3915",
+              "Value": "4hqy299btfpx9668fmpgqnrxmr",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3745",
+              "Value": "468cg0sjrq48h0c57eqk96y24e",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3700",
+              "Value": "42g6dstvm1x2xt9z2gc6s92w5m",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3645",
+              "Value": "4c83285czzvgj6s23r5dmksncq",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3930",
+              "Value": "4x3nq074bped3xjenzjb0m784f",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3755",
+              "Value": "43t854gz9mehn3t58g60xv04dw",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3765",
+              "Value": "46fbsxwydmy0bta4wysdrecqc3",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3640",
+              "Value": "4zv8zvnhr9w2r6h44vs17qypng",
+              "Disabled": false
+            },
+            {
+              "FieldId": "3835",
+              "Value": "4yg6yt9m58j87yjq017h1dwec4",
+              "Disabled": false
+            }
+          ]
+        },
+        "MediaAccessKey": "%3Fsv%3D2018-03-28%26sr%3Dc%26sig%3DNxPKKi8mS8TrggwoC%252B8M7%252FqrwJsP9xK5KG2cN2wM72A%253D%26sip%3D86.153.15.174%26st%3D2019-02-18T18%253A30%253A05Z%26se%3D2019-02-18T18%253A40%253A05Z%26sp%3Dr"
+      }
+    }
+  ]
+}

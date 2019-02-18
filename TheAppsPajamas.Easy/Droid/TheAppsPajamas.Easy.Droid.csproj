@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.props')" />
+  <Import Project="..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.props" Condition="Exists('..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -214,7 +214,6 @@
     <AndroidResource Include="Resources/mipmap-xxhdpi/ic_launcher.png" />
     <AndroidResource Include="Resources/mipmap-xxxhdpi/ic_launcher.png" />
   </ItemGroup>
-  <Import Project="..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets" Condition="Exists('..\packages\TheAppsPajamas.1.1.0\build\TheAppsPajamas.targets')" />
   <ItemGroup>
     <TapAsset Include="TapAssets/Debug/TapAssets/drawable-hdpi/ic_splash_44rb02n0hjp2vxp5gdbw0pamwp.png" />
     <TapAsset Include="TapAssets/Debug/TapAssets/drawable-land-hdpi/ic_splash_41wsfyrez9n74zsqbmvp8tjgxs.png" />
@@ -259,4 +258,5 @@
     <TapAsset Include="TapAssets/Release/TapAssets/mipmap-xxhdpi/ic_launcher_4bv51zd36gt2x7gak8841hnmdv.png" />
     <TapAsset Include="TapAssets/Release/TapAssets/mipmap-xxxhdpi/ic_launcher_4ecvg7ps5087e39m5681tez8ng.png" />
   </ItemGroup>
+  <Import Project="..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.targets" Condition="Exists('..\packages\TheAppsPajamas.1.1.2\build\TheAppsPajamas.targets')" />
 </Project>
